@@ -312,8 +312,8 @@ Links
 - [Guido's PyCon 2013 keynote](http://pyvideo.org/video/1667/keynote-1)
 - [An Introduction to Asyncrhonous Programming and Twisted](http://krondo.com/?page_id=1327)
 - [Tulip project page on GoogleCode](https://code.google.com/p/tulip/)
-- Code for this talk on Github
-- Viol project page on Github
+- [Code for this talk on Github](https://github.com/feihong/tulip-talk)
+- [Viol project page on Github](https://github.com/feihong/viol)
 
 Questions?
 ----------
