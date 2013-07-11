@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Regex Debugger</title>
+<style>
+body { font-family: monospace; }
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<form>
+    <table>
+        <tr>
+            <td>
+                Input: <br>
+                <textarea name="input" cols="50" rows="5" autofocus tabindex="1"></textarea>
+            </td>
+            <td>
+                Regex: <br>
+                <textarea name="regex" cols="50" rows="5" tabindex="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Match: <span id="match"></span> <br>
+                group(): <pre id="group"></pre>
+                groups(): <pre id="groups"></pre>
+                groupdict(): <pre id="groupdict"></pre>
+            </td>
+            <td>
+                Errors: <br>
+                <pre id="error"></pre>
+            </td>
+        </tr>
+    </table>
+</form>
+
+<script src="jquery.js"></script>
+<script src="viol.js"></script>
+<script src="main.js"></script>
+</body>
+</html>

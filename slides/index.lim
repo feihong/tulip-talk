@@ -1,0 +1,27 @@
+<title>Slides</title>
+
+<link href="main.scss">
+
+<script src="jquery.js"></script>
+<script src="viol.js"></script>
+<script src="main.coffee"></script>
+
+
+<div id="slideshow"></div>
+
+<div id="code-viewer"></div>
+
+<div id="demo-viewer"></div>
+
+<div id="slides"></div>
+
+<div id="first-slide" class="slide notes">
+	<h2>Edit Mode</h2>
+
+	<p>
+		You have <span class="slide-count">?</span> slides
+		(<span class="notes-count">?</span> are notes slides).
+	</p>
+
+	<button class="start">Start the presentation</button>
+</div>

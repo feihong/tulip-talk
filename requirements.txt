@@ -1,0 +1,2 @@
+Twisted==13.1.0
+-e hg+https://tulip.googlecode.com/hg/#egg=tulip

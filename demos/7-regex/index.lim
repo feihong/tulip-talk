@@ -1,0 +1,36 @@
+<title>Regex Debugger</title>
+
+<style>
+body { font-family: monospace; }
+</style>
+
+<script src="jquery.js"></script>
+<script src="viol.js"></script>
+<script src="main.coffee"></script>
+
+<form>
+    <table>
+        <tr>
+            <td>
+                Input: <br>
+                <textarea name="input" rows="5" cols="50" tabindex="1" autofocus></textarea>
+            </td>
+            <td>
+                Regex: <br>
+                <textarea name="regex" rows="5" cols="50" tabindex="2"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Match: <span id="match"></span> <br>
+                group(): <pre id="group"></pre>
+                groups(): <pre id="groups"></pre>
+                groupdict(): <pre id="groupdict"></pre>
+            </td>
+            <td>
+                Errors: <br>
+                <pre id="error"></pre>
+            </td>
+        </tr>
+    </table>
+</form>

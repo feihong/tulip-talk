@@ -1,0 +1,23 @@
+<title>Chat!</title>
+
+<style>
+#messages { border: 1px solid black; }
+#chat { display: none; }
+input[name=message] { width: 100%; }
+</style>
+
+<script src="jquery.js"></script>
+<script src="viol.js"></script>
+
+<div id="signin">
+    <form>
+        Please sign in: <input name="username" autofocus>
+    </form>
+</div>
+
+<div id="chat">
+    <div id="messages"></div>
+    <form>
+        <input name="message">
+    </form>
+</div>
