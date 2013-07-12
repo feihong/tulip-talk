@@ -1,13 +1,11 @@
 body, html, div {
   margin: 0; }
 
-body {
-  font-size: 3.2em; }
-
 h1, h2 {
   margin-top: 0; }
 
 body {
+  font-size: 3.2em;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative; }
 
