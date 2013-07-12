@@ -113,8 +113,6 @@ This example is actually less readable than the Twisted example, despite the fac
 
 It's clear that Tulip's callback-based API is more robust than Twisted's. This is probably intentional on Guido's part. He doesn't want you to use callbacks.
 
-Tbd: Add a note about error callback readability.
-
 Fetching a web page in Twisted w/ inline callbacks
 --------------------------------------------------
 <div code="examples/4-twisted-download-inline-callbacks.py"></div>
@@ -310,7 +308,7 @@ Links
 -----
 - [PEP 3156](http://www.python.org/dev/peps/pep-3156/)
 - [Guido's PyCon 2013 keynote](http://pyvideo.org/video/1667/keynote-1)
-- [An Introduction to Asyncrhonous Programming and Twisted](http://krondo.com/?page_id=1327)
+- [An Introduction to Asynchronous Programming and Twisted](http://krondo.com/?page_id=1327)
 - [Tulip project page on GoogleCode](https://code.google.com/p/tulip/)
 - [Code for this talk on Github](https://github.com/feihong/tulip-talk)
 - [Viol project page on Github](https://github.com/feihong/viol)
